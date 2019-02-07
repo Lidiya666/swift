@@ -29,7 +29,7 @@ struct Car {
     var isLuggage: Luggage
     
     mutating func changeWindow(isWindow: Window){
-        if self.isWindow == Window.close {
+        if isWindow == Window.close {
             self.isWindow = Window.open
         } else {
             self.isWindow = Window.close
