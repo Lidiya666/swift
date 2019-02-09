@@ -96,10 +96,3 @@ for car in cars{
         print("вид кузова: \((car as? trunkCar)?.isBodyType.rawValue) - тоннаж: \((car as? trunkCar)?.tonnage)")
     }
 }
-
-//car1.what()
-/*
-print("\(car1.mark) - \(car1.yearIssue) года выпуска - \(car1.capLuggage)л - \(car1.isEngine.rawValue) - \(car1.isWindow.rawValue) - \(car1.isLuggage.rawValue)")
-print("\(car2.mark) - \(car2.yearIssue) года выпуска - \(car2.capLuggage)л - \(car2.isEngine.rawValue) - \(car2.isWindow.rawValue) - \(car2.isLuggage.rawValue)")
-print("\(truck1.mark) - \(truck1.yearIssue) года выпуска - \(truck1.capLuggage)л - \(truck1.isEngine.rawValue) - \(truck1.isWindow.rawValue) - \(truck1.isLuggage.rawValue)")
-*/
