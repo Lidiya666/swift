@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		83EDE8EE2227CBAE004B7147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDE8ED2227CBAE004B7147 /* AppDelegate.swift */; };
-		83EDE8F02227CBAE004B7147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDE8EF2227CBAE004B7147 /* ViewController.swift */; };
 		83EDE8F32227CBAE004B7147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EDE8F12227CBAE004B7147 /* Main.storyboard */; };
 		83EDE8F62227CBAE004B7147 /* _l_ChernovaVV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83EDE8F42227CBAE004B7147 /* _l_ChernovaVV.xcdatamodeld */; };
 		83EDE8F82227CBAF004B7147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EDE8F72227CBAF004B7147 /* Assets.xcassets */; };
 		83EDE8FB2227CBAF004B7147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EDE8F92227CBAF004B7147 /* LaunchScreen.storyboard */; };
 		83EDE9062227CBAF004B7147 /* _l_ChernovaVVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDE9052227CBAF004B7147 /* _l_ChernovaVVTests.swift */; };
+		83EDE9112227CE08004B7147 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDE9102227CE08004B7147 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		83EDE8EA2227CBAE004B7147 /* 1l_ChernovaVV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1l_ChernovaVV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EDE8ED2227CBAE004B7147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83EDE8EF2227CBAE004B7147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83EDE8F22227CBAE004B7147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83EDE8F52227CBAE004B7147 /* _l_ChernovaVV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _l_ChernovaVV.xcdatamodel; sourceTree = "<group>"; };
 		83EDE8F72227CBAF004B7147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		83EDE9012227CBAF004B7147 /* 1l_ChernovaVVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1l_ChernovaVVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EDE9052227CBAF004B7147 /* _l_ChernovaVVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _l_ChernovaVVTests.swift; sourceTree = "<group>"; };
 		83EDE9072227CBAF004B7147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EDE9102227CE08004B7147 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				83EDE8ED2227CBAE004B7147 /* AppDelegate.swift */,
-				83EDE8EF2227CBAE004B7147 /* ViewController.swift */,
 				83EDE8F12227CBAE004B7147 /* Main.storyboard */,
+				83EDE9102227CE08004B7147 /* LoginViewController.swift */,
 				83EDE8F72227CBAF004B7147 /* Assets.xcassets */,
 				83EDE8F92227CBAF004B7147 /* LaunchScreen.storyboard */,
 				83EDE8FC2227CBAF004B7147 /* Info.plist */,
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83EDE8F02227CBAE004B7147 /* ViewController.swift in Sources */,
+				83EDE9112227CE08004B7147 /* LoginViewController.swift in Sources */,
 				83EDE8F62227CBAE004B7147 /* _l_ChernovaVV.xcdatamodeld in Sources */,
 				83EDE8EE2227CBAE004B7147 /* AppDelegate.swift in Sources */,
 			);
